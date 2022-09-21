@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.mainn{
+    width: 100%;
+    background-color: rgb(26, 23, 23);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}

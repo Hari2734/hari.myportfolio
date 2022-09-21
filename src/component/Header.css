@@ -1,0 +1,33 @@
+boady{
+    font-family: 'Times New Roman', Times, serif;
+    background: violet ;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.navbar-logo{
+    color: #FF7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    pointer-events: none;
+}
+.navbar-mainbg{
+    background-color:#102036;
+    padding: 0px;
+}
+#navbarsupportedContent ul {
+    padding: 0px;
+    margin-left: 75%;
+}
+#navbarsupportedContent ul li a {
+    color: #FF7200;
+    font-size: 15px;
+    display: block;
+    transition-duration: 0.6s;
+    transition-timing-function: cubic-bezier(0.68,-0.55,0.265,1.55);
+    position: relative;
+}
