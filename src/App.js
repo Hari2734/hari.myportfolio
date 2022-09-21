@@ -9,12 +9,13 @@ import Header from "./component/Header";
 import Create from "./pages/create/create";
 import Update from "./pages/update/update";
 import Register from "./pages/register/register";
+import HomePage from "./pages/homePage";
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
-          {/* <Route path="/about/:id" element={<FirstTask />} /> */}
+          <Route path="/" element={<HomePage/>} />
           <Route path="/listuser" element={<User/>} />
           <Route path="/singleuser/:id" exact element={<Singleuser/>} />
           <Route path="/Listresource" exact element={<Listresource/>} />
